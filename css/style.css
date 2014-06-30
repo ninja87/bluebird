@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-06-29, 13:20:11
+    Author     : Ninja
+*/
+body{ 
+margin: 0;
+}
+
+div.czysc {
+    clear: both;
+}
+a.mojelogo { 
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+nav.menu{ 
+    float: right;
+    color: blanchedalmond;
+}
+
+nav.menu a{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+nav.menu a:hover {
+    color:pink;
+}
+
+nav.menu li{
+    display:inline-block;
+    margin-right: 40px;
+}
+
+
+
+header {
+    background: url(../images/img1.jpg);
+    height: 400px;
+    padding: 50px;
+    
+    
+}
+section{
+    padding:50px;
+}
+div.srodkowanie{
+    width: 1000px;
+    margin: 0px auto;
+}
+header p{
+    width: 283px;
+}
+.zielony{
+    background: aqua;
+    color: black;
+    border: none; 
+    padding: 10px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+div.leftblock, div.rightblock{
+    display:inline-block;
+    width: 400px;
+    vertical-align: top;
+     
+}
+div img.kurczak{
+    margin: 0px 0px 0px 60px;
+    
+}
+.rightblock{
+    /*padding-top: 50px;*/
+}
+.sectionJeden{
+    color:#3C8FCE;
+}
+
+.sectionDwa{
+    background:#162811;
+    text-align: center;
+    height: 456px;
+    color:white;
+}
+
+.kapelusz{
+    width: 800px;
+}
+
+.sectionTrzy{
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer{
+    background:blueviolet;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.butemdogory{
+    background: orange;
+    width: 70px;
+    height: 70px;
+    display:inline-block;
+    border-radius: 77px;
+    text-decoration: none;
+    line-height: 60px;
+    
+    
+        
+}
+
+.butemdogory:hover{
+    background: background;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.kolorowe{
+    color: yellow;
+    font-weight:bold;
+    font-style: italic;
+}
+.sectionCztery{
+    color: #3C8FCE;
+    font-weight: bold;
+    margin: 0 460px 0 0;
+    
+}   
+
+.slowo{
+    display:inline-block;
+}
+.hopka{
+    color:brown;
+}
